@@ -12,6 +12,7 @@ $ rollup -c --watch
 # Heroku
 
 ```
-# Prepare your heroku app in advance.
+$ heroku create {YOUR_APP}
 $ git push heroku master
+$ heroku open
 ```

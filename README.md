@@ -13,6 +13,7 @@ $ rollup -c --watch
 
 ```
 $ heroku create {YOUR_APP}
+$ heroku config:set NPM_CONFIG_PRODUCTION=false
 $ git push heroku master
 $ heroku open
 ```

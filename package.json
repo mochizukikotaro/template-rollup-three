@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "script": {
-    "start": "node server.js"
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "rollup -c rollup.config.heroku.js"
   },
   "dependencies": {
     "three-orbit-controls": "^82.1.0"
